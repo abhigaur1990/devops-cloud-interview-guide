@@ -20,6 +20,7 @@ This makes my routine faster and keeps my local branch synchronized with the rem
 - I want to frequently pull in the latest changes to test or deploy updates
 
 Of course, I stay cautious by committing or stashing local changes before pulling to avoid conflicts or interrupted workflows. And if I suspect major upstream changes or want a closer look, I’ll temporarily switch to `git fetch`.
+And git fetch mostly used when I am working on team environment but when I am working on an experimental changes which might break if I take all the changes from the remote repo.
 
 But for my day-to-day development, especially in active branches, `git pull` keeps things fast and simple — and that makes it my go-to.
 
