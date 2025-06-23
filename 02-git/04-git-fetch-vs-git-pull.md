@@ -7,6 +7,8 @@ This question checks if you understand how Git handles remote updates. Many deve
 ## ✅ Answer  
 - `git fetch` retrieves the latest changes like commits, updated branches, tags from the remote repository and update them on to the .git into your local machine like **without merging** them into your current branch and if you find no changes required and all good then you can do git merge or git rebase and updated the changes to your local repo of machine.
 - `git pull` does the same as `fetch` but **also automatically merges** the changes into your current branch.
+- It does entire same thing in one command.
+- Git pull can be considered as git pull + git merge
 
 ### 📘 Detailed Explanation  
 When you run `git fetch`, you’re asking Git to contact the remote (like GitHub) and download any changes (new commits, branches, tags) — **but not apply them** to your working directory.
