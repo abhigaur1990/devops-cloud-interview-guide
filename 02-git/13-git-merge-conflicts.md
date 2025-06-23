@@ -7,6 +7,7 @@ That when I was merging this branch to main I got merge conflict and got same co
 And request developers that please resolve this issue by collborating with them.
 Merge conflicts are a common part of collaborative Git workflows. This question is meant to test how calmly and effectively you resolve conflicts and whether you understand why they occur.
 
+
 ## ✅ Answer  
 When I encounter a merge conflict, I pause to understand which files are affected, examine the conflicting changes, and manually resolve them using a visual diff tool or editor. Once resolved, I mark the conflicts as resolved, stage the changes, and complete the merge or rebase.
 
