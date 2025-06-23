@@ -4,7 +4,10 @@ Have you ever used Git tags? If yes, why?
 ### 📝 Short Explanation  
 This question checks if you're familiar with versioning and release practices in Git. Tags are an important part of marking stable points in history — especially in CI/CD pipelines and production deployments.
 
-## ✅ Answer  
+## ✅ Answer 
+bookmarks of specific point on your git history.
+If you want to mark any specific point. You can use git points.
+It is like bookmark any website same like tag to tag on any commit
 Yes, I’ve used Git tags primarily to mark release versions of our applications. It helps track which commit corresponds to a production deployment, and makes it easier to roll back or audit changes when needed.
 
 ### 📘 Detailed Explanation  
