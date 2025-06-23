@@ -24,29 +24,31 @@ Before pushing or raising a PR, I might want to **combine them into a single com
 #### ✅ Here’s how I do it:
 
 ```bash
-git rebase -i HEAD~4
-```
+We use this command
+git rebase -i HEAD~4(4 means number of commits you want put in single commit) like head~3 means top 3 commit.
+```so once you press enter
 
 This opens an editor with the last 4 commits:
-```text
+
 pick jkl012 Initial work on login form
 pick ghi789 Update error message
 pick def456 Add input validation
 pick abc123 Fix typo
 ```
-
-I change all but the first `pick` to `squash` or `s`:
-```text
+The only thing we do is
+chnage pick` to `squash` or `s`:
+lie as follow
 pick jkl012 Initial work on login form
 squash ghi789 Update error message
 squash def456 Add input validation
 squash abc123 Fix typo
-```
+```once you save it . Instantly it will ask you for the commit message
 
 Then I write a new commit message when prompted, save, and exit.
 
 Finally:
-```bash
+now chekc by git log and you will see those 4 commits change to one commit.
+and then push it to git hub repo by
 git push origin branch-name --force
 ```
 
