@@ -7,10 +7,10 @@ This question explores how you organize your Git workflow in a collaborative env
 ## ✅ Answer  
 In my company, we followed a well-structured Git branching model similar to the Kubernetes project's workflow. Our strategy centered around four key branches:
 
-- `main` – the default and stable development branch  
-- `feature/*` – for all new features and enhancements  
-- `release/*` – for preparing and testing production releases  
-- `hotfix/*` – for urgent bug fixes or patches to production
+- `main` – the default and stable development branch. It is updated and latest branch. Developer works on this main branch.
+- `feature/*` – for all new features and enhancements. There can be n number of features branch. And developers for any changes work on feature branch and once merge it on main branch.
+- `release/*` – for preparing and testing production releases. It is branch on which QA engineer work perform the testing. And if all works good. A tag is created on this branch and from this tag we perform release.
+- `hotfix/*` – for urgent bug fixes or patches to production. Let say there is some issue occurs. Then there is hotfix branch created from release branch.
 
 This helped us maintain stability while enabling parallel development and quick recovery from issues.
 
