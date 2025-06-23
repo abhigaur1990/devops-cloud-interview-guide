@@ -5,7 +5,7 @@ What is the difference between `git fetch` and `git pull`, and when would you us
 This question checks if you understand how Git handles remote updates. Many developers use `git pull` out of habit but don’t realize that it’s a combination of two actions — which `git fetch` separates for more control.
 
 ## ✅ Answer  
-- `git fetch` retrieves the latest changes from the remote repository **without merging** them into your current branch.
+- `git fetch` retrieves the latest changes like commits, updated branches, tags from the remote repository and update them on to the .git into your local machine like **without merging** them into your current branch.
 - `git pull` does the same as `fetch` but **also automatically merges** the changes into your current branch.
 
 ### 📘 Detailed Explanation  
