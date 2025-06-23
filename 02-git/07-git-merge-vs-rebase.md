@@ -74,6 +74,9 @@ A---B---C (main)
 
 > Summary:  
 > Use `merge` to combine, use `rebase` to simplify.
+> While executing git rebase when you are on feature or xyz branch it will show commit history as per branch order
+like first main branch commit then another branch commit
+> on ther hand when you run git merge it will show history as per chronological order date or as per the history they are addedd.
 
 ---
 
