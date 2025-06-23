@@ -1,11 +1,11 @@
 ## Question  
-When using `curl`, the request works with an IP address but fails when using the domain name.
+When using `curl`, the request works with an IP address but fails when using the domain name on server it fails why?
 
 **Task:**  
 Explain why this might happen and how you would troubleshoot it.
 
 ### 📝 Short Explanation  
-This scenario points to a **DNS resolution problem** — your system can reach the server IP directly, but it cannot translate the domain name into an IP.
+This scenario points to a **It is likely related to DNS resolution problem** — your system can reach the server IP directly, but it cannot translate the domain name into an IP.
 
 ## ✅ Answer  
 
