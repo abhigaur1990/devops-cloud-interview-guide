@@ -16,12 +16,9 @@ To make a **private subnet behave like a public subnet**, follow these steps:
 ### 🛠️ Step-by-Step Solution
 You need to change this to punlic subnet how
 
-#### 1. **Go to the route table and Update the Route Table**
-- Go to **VPC → Route Tables**.
-- Identify the route table associated with the subnet.
-- and add internet gateway as the destination
-- Edit routes and **add** the following entry:
-  ```text
+#### 1. **Go to the  *VPC → route table and select private subnet route table, go inside it and edit the route table **
+-add the following entry:
+  ```then set
   Destination: 0.0.0.0/0
   Target: igw-xxxxxxxx   # Your Internet Gateway ID
 
