@@ -29,7 +29,7 @@ If `curl http://<IP>` works but `curl http://example.com` fails, the issue is mo
 ---
 
 2. **Wrong or Missing DNS Configuration**
-   - Check `/etc/resolv.conf` (Linux) to ensure a valid DNS nameserver (e.g., `8.8.8.8`) is present.
+   -go to your vm and go to file /etc/resolv.conf  Check `/etc/resolv.conf` (Linux) to ensure a valid DNS nameserver (e.g., `8.8.8.8`) is present.
    - Your system might not be using any DNS server or is using one that's unreachable.
 
 ---
