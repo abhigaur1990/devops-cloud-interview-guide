@@ -36,8 +36,8 @@ pick def456 Add input validation
 pick abc123 Fix typo
 ```
 The only thing we do is
-chnage pick` to `squash` or `s`:
-lie as follow
+change pick` to `squash` or `s`:
+like as follow
 pick jkl012 Initial work on login form
 squash ghi789 Update error message
 squash def456 Add input validation
