@@ -2,6 +2,9 @@
 How do you handle merge conflicts in Git?
 
 ### 📝 Short Explanation  
+So First I contacted to developer who created this merge and communicate to the developer.
+That when I was merging this branch to main I got merge conflict and got same code is showing in two different files in different branch and merge conflict occurs..
+And request developers that please resolve this issue by collborating with them.
 Merge conflicts are a common part of collaborative Git workflows. This question is meant to test how calmly and effectively you resolve conflicts and whether you understand why they occur.
 
 ## ✅ Answer  
