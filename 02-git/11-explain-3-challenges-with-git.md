@@ -1,6 +1,17 @@
 ## Question  
 Explain three challenges you faced while using Git in your work experience.
 
+I faced git branching strategy issue.
+When I was in the company and switched to the project. 
+There was no branching startegy followed. People were creating random branches in their own way.
+So I intorduced trunk based branches accor to organization startegy.
+It was near suitable for us.
+So as per trunk based branched
+1st I created main branch where all developers created and updated code.
+Features:- Some developers works on features branch.
+Realease branch:- Since we had 2 month ready cycle for feature branch so we created release branch
+and at last hotflix for any issue occur in production.
+
 ### 📝 Short Explanation  
 This question is aimed at evaluating real-world Git usage and how well you’ve handled common pain points like collaboration, history management, and contribution workflows. It gives the interviewer insight into how deeply you've worked with Git in a team setting.
 
