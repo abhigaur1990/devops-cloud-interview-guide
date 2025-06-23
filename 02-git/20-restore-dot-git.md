@@ -7,7 +7,7 @@ This question evaluates your knowledge of Git internals and backup strategies. A
 ## ✅ Answer  
 No, you cannot restore a deleted `.git` folder **on your own** unless you have:
 - A backup of the folder (manual or automated), or
-- A remote copy of the repository (e.g., on GitHub or GitLab)
+- access of A remote copy of the repository (e.g., on GitHub or GitLab)
 
 ### 📘 Detailed Explanation  
 
