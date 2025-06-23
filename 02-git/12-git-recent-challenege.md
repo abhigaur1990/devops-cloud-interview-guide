@@ -1,6 +1,20 @@
 ## Question  
 Explain a recent challenge you faced with Git and how you addressed it.
+The challenges I faced was
+ Access control:-
 
+ When I joined the project there was access control issue which was not well defined.
+ ex:-every developr was able to create on git hub repo .
+ So because they were able to create branches. Number of CI/CD pipelines were running.
+ It was costing the organization. And aprt from.
+ Maintaining the branches was out of control.
+ So when I joined the project there was almost more than 100 branchex created on git rep.
+ Apart from this. There was many branches that were not in use.
+ SO as per the process I started defining Role based access control.
+ Like I defined read control access, write role like who can create branches, who can view code etc.
+ I also created maintain acess who can maintain repo.
+ So this process removed all mess up issue.
+And I got appreciation on this.
 ### 📝 Short Explanation  
 This question is intended to assess your experience with Git at scale — especially around collaborative processes and governance. It’s an opportunity to demonstrate how you bring structure to complex codebases across teams.
 
