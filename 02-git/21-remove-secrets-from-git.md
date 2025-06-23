@@ -4,8 +4,8 @@ A teammate accidentally committed a Kubernetes Secret (base64 encoded) to Git. W
 ### 📝 Short Explanation  
 This scenario tests how you respond to a security breach and how well you understand Git history rewriting, sensitive data handling, and Kubernetes secrets management.
 
-## ✅ Answer  
-Immediately remove the secret from the Git history using tools like `git filter-repo` or `BFG`, rotate the compromised secret, and enforce better secret management policies (e.g., use sealed secrets or external secret stores).
+## ✅ Answer  Step1.
+Go to that git repo and go to path and Immediately remove the secret from the Git history using tools like `git filter-repo` or ` use BFG repo cleaner`, rotate the compromised secret, and enforce better secret management policies (e.g., use sealed secrets or external secret stores).
 
 ### 📘 Detailed Explanation  
 
@@ -18,7 +18,7 @@ When a Kubernetes Secret (even base64-encoded) is committed to Git, it becomes p
 
 ---
 
-#### ✅ Step 1: Rotate the compromised secret  
+#### ✅ Step 2: I will ask the developer tea to Rotate the compromised secret  
 Whether it’s an API key, database password, or token — assume it’s compromised.
 
 - Create a new secret value (e.g., generate a new DB password or token).
