@@ -31,7 +31,7 @@ sudo systemctl status nginx
 If it’s inactive or failed:
 ```bash
 sudo systemctl restart nginx
-sudo journalctl -u nginx -xe
+sudo journalctl -u nginx -xe - to understand why nginx server were stopped
 ```
 
 ---
