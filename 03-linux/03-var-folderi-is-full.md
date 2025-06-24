@@ -1,11 +1,15 @@
 ## Question  
 `/var` is almost 90% full. What will be your next steps?
+because /var is the file your service writes the log tools.
+like nginx or apache as they keep running on your instances so they keep writing the logs files to /var .
+So it is imp that doesn't reach to the point of 100%.
 
 ### 📝 Short Explanation  
 This question checks your troubleshooting and disk management skills. The `/var` directory is commonly used for logs, spools, caches, and runtime data — so issues here can break system processes or fill up disks silently.
 
 ## ✅ Answer  
-My first step is to identify what’s consuming the space inside `/var`. Then I would clean up unnecessary files like rotated logs, caches, or orphaned packages — and put alerts or log rotation in place to avoid recurrence.
+My first step is to first login to the instnace and go to /var file and run command sudo du -sh * and it will show folder with size info and on basis of that 
+we identify what’s folder consuming the space inside `/var`. Then I would clean up unnecessary files like old logs by zipping it or compressing it and they will take less steps,  caches, or orphaned packages — and put alerts or log rotation in place to avoid recurrence.
 
 ### 📘 Detailed Explanation  
 
