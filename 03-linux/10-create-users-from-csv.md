@@ -18,7 +18,17 @@ carol,DevOps@789
 This task tests your ability to read structured data (CSV) and automate user management using shell scripting — commonly required for onboarding automation in DevOps roles.
 
 ## ✅ Answer
+Tell interviewer let me first discuss the approach and then I will write the script
 
+Approach:- 
+1. check if the csv file exist or not
+2. if you observe the csv file carefully and tricky part here is you have to ignore the first line of csv file because it is not the user details it mentioned the metadata of the csv.
+   so this metadata explain you that first line mentioned username of users and 2 column mention the password of users and these are separated by comma.
+3. SO ignore line 1 loop
+4. if you know number of users how many users are there go for for loop and
+   and if you don't know the number of users go for while loop
+5. Then you use useradd command to create the user and you can use pswd to create password because it is an interactice command .
+   instead you use command chpasswd <username : password>
 
 ```bash
 #!/bin/bash
