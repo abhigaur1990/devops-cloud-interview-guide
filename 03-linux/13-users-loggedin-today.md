@@ -6,6 +6,10 @@ This tests your understanding of Linux log inspection and user activity tracking
 
 ## ✅ Answer  
 
+command 
+last -f
+it will show all the users that have logged in to the system
+
 ### 🖥️ Command
 
 ```bash
