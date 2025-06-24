@@ -30,6 +30,8 @@ Approach:-
 5. Then you use useradd command to create the user and you can use pswd to create password because it is an interactice command .
    instead you use command chpasswd <username : password>
 
+Now lets start creating the file
+
 ```bash
 #!/bin/bash
 
