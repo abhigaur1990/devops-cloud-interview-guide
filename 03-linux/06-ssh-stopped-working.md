@@ -26,8 +26,13 @@ Typical errors:
 The error gives the first clue.
 
 ---
+Step 2 :- Check firewall status if it is disbaled or not.
+check via command sudo ufw status
+and if status show :- inactive means firewall is disabled
 
-### ✅ Step 2: Check Instance Health & Reachability
+go to next step
+
+### ✅ Step 3: Check Instance Health & Reachability
 - Is the instance **running**?
 - Is it **reachable**?
   
@@ -41,7 +46,7 @@ If instance is unreachable → investigate VPC/subnet/NACL routing issues.
 
 ---
 
-### ✅ Step 3: Verify Security Group Rules  
+### ✅ Step 3: check security group and  Verify Security Group Rules  
 Make sure port 22 is open **from your IP**:
 ```text
 Inbound rule:
@@ -52,6 +57,11 @@ Source: your IP (e.g., 203.0.113.0/32)
 
 If using a **bastion host**, check its connectivity as well.
 
+Next step to check :- ssh deprocess might have been stopped
+Thsi is imp in this issue to check
+check 
+sudo systemctl status ssh
+if it disable ssh failed
 ---
 
 ### ✅ Step 4: Check Network ACLs & Route Tables  
