@@ -1,5 +1,5 @@
 ## Question  
-Your website is not loading.  
+Port is open still Your website is not loading.  
 
 **Task:**  
 Describe the step-by-step investigation process to identify and fix the issue.
@@ -15,7 +15,15 @@ Start from **external checks** and move inward, layer by layer:
 
 ### 🧭 1. **Is the site down for everyone or just me?**
 Use:
-```bash
+1. as the first step, I will check if the web server is running or not because web server is hosting the web content.
+and how to check if web server is running or not
+command is :- system status apache or nginx
+2. then you need to check logs of the web server
+   go to /var/logg/nginx/error.log
+   this is the file where nginx error logs is there to check
+   3. we will check if the html file which serves the website is in the right location or not via index.html
+      why we are chekcing website
+      because let say if website is accessible after that if you click on the website and if website is working taht means issue is from the backend. 
 curl -I https://yourdomain.com
 ping yourdomain.com
 ```
