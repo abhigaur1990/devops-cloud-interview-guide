@@ -8,6 +8,10 @@ This question aims to assess your hands-on experience with Linux, focusing on di
 Here are 10 Linux commands I use regularly, excluding the basics like `cd`, `ls`, and `pwd`:
 
 ---
+1. ls :- you can use parameters
+like ls -a, ll etc
+2. CD:-  to navigate between directories. 
+
 
 ### 1. `tail -f`  
 ```bash
@@ -18,15 +22,15 @@ tail -f /var/log/nginx/error.log
 ---
 
 ### 2. `grep`  
-```bash
+```to find some patterns on log files or to find any keywords. like as ex:- 
 grep -i "timeout" /var/log/app.log
-```
+```so it will search timeout from this given path file. 
 🔎 Search through files, logs, or command outputs for specific patterns. I use this to quickly isolate errors.
 
 ---
 
 ### 3. `systemctl`  
-```bash
+```to check any service running or not, to restart the service
 systemctl restart nginx
 ```
 🛠️ Control system services — starting, stopping, checking status of systemd services.
@@ -45,7 +49,7 @@ journalctl -u docker.service -f
 ```bash
 ps aux | grep nginx
 ```
-📋 List running processes. I use this to find rogue or resource-intensive processes.
+📋 check to List running processes. I use this to find rogue or resource-intensive processes.
 
 ---
 
