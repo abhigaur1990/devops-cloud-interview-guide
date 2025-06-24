@@ -11,7 +11,7 @@ This question tests your ability to manage disk space with log compression and r
 
 1. first verify if this directory even exist on system.
 2. After verifivation done , find logs to compress it older than 7 days.
-3. Now when you compress the logs that are older than 7 days then you need to do consideration to not take logs that are older than 30 days. Because it is easy to take logs lder than 7 days but it also can taek logs older than 14 days too or 15 days too.
+3. Now when you compress the logs that are older than 7 days then you need to do consideration to not take logs that are older than 30 days. Because it is easy to take logs older than 7 days but it also can take logs older than 14 days too or 15 days too.
  You have to add checkpoint in the script that if this script find logs file older than 30 days.
  it will not create zip or gzip file instead it will ignore it because in the next step as per the ques
 we will use find command to find the logs older than 30 days and we will simply remove the logs .
