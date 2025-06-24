@@ -5,6 +5,7 @@ Linux Server is slow due to high CPU utilization. How will you fix it?
 This question assesses your ability to diagnose performance issues, identify root causes, and take targeted actions to reduce CPU load on a production server.
 
 ## ✅ Answer  
+1. Instant login to the instance 
 I would begin by identifying which processes are consuming the most CPU using tools like `top`, `htop`, or `pidstat`, then analyze whether it's due to a misbehaving application, runaway process, or scheduled job. Based on the findings, I’d take corrective action — either by killing the process, adjusting resource limits, or scaling the workload.
 
 ### 📘 Detailed Explanation  
