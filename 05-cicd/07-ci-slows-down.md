@@ -1,5 +1,6 @@
 ## Question  
 Pipeline Slows Down Over Time (Builds taking more time) — How Will You Fix?
+in detail :- a developr triggers a feature branch but pipeline doesn't trigger?Why ?
 
 ### 📝 Short Explanation  
 If a CI pipeline is progressively getting slower, it's likely due to **accumulated build artifacts**, **unoptimized steps**, **lack of caching**, or **resource saturation** on the runner/agent.
@@ -9,7 +10,13 @@ If a CI pipeline is progressively getting slower, it's likely due to **accumulat
 When I notice that builds are getting slower over time, I take a **metrics-driven approach** to isolate the slowdown and optimize the pipeline stages.
 
 ---
+as devops engineer we should go to the CI file 
+let say the team is using git hub action so you will go to the git hub actions yaml file and first thing you will check is 
+so within github yaml file. you will se on :- as shown in the screenshot
+![image](https://github.com/user-attachments/assets/ca3f6042-e443-4af8-83ac-0b272675452f)
 
+so you will try to see the on: field and you will se if "on" field push and pull_request is properly configured or not because here developr directly trying to push to the feature. also may be if push is configured but there is exclude that is added to the push fields
+so within "on" you can configured excludes and within excludes may be some body added feature because may be developr doesn't want run the pipeline on feature branch. So as a devops engineer we need to remove exclude tags.
 ### 🧭 Step-by-Step Troubleshooting Approach
 
 #### 1. 📊 **Measure Stage Durations Over Time**
