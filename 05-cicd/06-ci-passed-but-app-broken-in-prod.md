@@ -11,6 +11,12 @@ I treat this as a **critical incident** and approach it using a mix of **debuggi
 ---
 
 ### 🔍 Step-by-Step Troubleshooting Approach
+ We can first ask the interview if there is any difference between teh envuronment.
+ Ex:- difference between dev, staging and prod environment.
+ Based on interveiw answer:-
+ we say it can be issue with the real time traffic that prod cluster recieves, on staging environment you might have tested the app
+but you might have tested the app ex with 100 users request but on prod environment you might have recieved 10000 users request or may be more request as per expected.
+I will first check the issue with traffic, So when the app is broken, I will first check the logg of that app and will check teh reaosn of the failure.
 
 #### 1. 🔥 **Initiate Incident Response**
 - Notify the team. Document the issue.
