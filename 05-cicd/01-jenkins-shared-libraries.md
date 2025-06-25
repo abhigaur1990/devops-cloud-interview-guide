@@ -9,6 +9,14 @@ Jenkins Shared Libraries allow you to **centralize reusable pipeline code** (lik
 ---
 
 ### 📘 What is a Jenkins Shared Library?
+As a devo’s engineer, I worked with multiple development team to create ci/cd pipeline.
+which are common across multiple teams,
+for ex: - stage like static code analysis which are common across development, stage liek build are common and code we write are almost also code.
+So what we use across team is we use Jenkins shared libraries because Jenkins is our ci/cd tools.
+SO, we created our gilt repo and within git hub repo we started creating Jenkins shared libraries and whenever we create new ci/cd pipeline we check if any exiting ci/cd pipeling can be used instead of writing ci/cd pipeline from zero.
+We just involve Jenkins shared libraries within ci/cd pipeline.
+SO, within Jenkins files, instead of writing code from scratch we check if that piece of code can be taken from Jenkins shared libraries if yes we invoke it.
+And by this way we significantly reduce the time while creating new ci/cd pipeline and we use git hub for storing Jenkins libraries.
 
 A **Shared Library** is a Git repository (or part of one) that contains reusable Groovy code you can include in Jenkins pipelines using the `@Library` annotation.
 
