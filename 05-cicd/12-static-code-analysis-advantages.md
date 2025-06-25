@@ -11,10 +11,10 @@ Static code analysis tools can identify a wide range of issues, including:
 ---
 
 ### 🔍 Types of Problems Identified by Static Analysis
-
-#### 1. 🧠 **Syntax Errors and Language Misuse**
+They capture 
+#### 1. 🧠 **Syntax Errors and Language Misuse , unused variables and unused codes.**
 - Invalid syntax or misuse of language constructs.
-- Missing imports, undeclared variables, etc.
+- It can find Missing imports, undeclared variables, etc.
 ```python
 def test():
     print(x)   # x not defined
