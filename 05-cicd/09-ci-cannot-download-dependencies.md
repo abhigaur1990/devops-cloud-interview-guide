@@ -11,7 +11,9 @@ When a build fails to fetch a dependency from an artifact repo (e.g., Artifactor
 ---
 
 ### 🧭 Step-by-Step Troubleshooting
-
+1, I will see if dependencies exist in artifact repo or not. So suppose nexus is the artifact repo so 
+So I will login to teh nexus and I will go to the path provided within pom.xml because dependencies basically provided in pom.xml file.
+I will login to nexus artifactory then I will check if specific nexus verison is available or not. Because what happend is the artifact the jar file might be present on nexus but within application pom.xml file developer might be referrencing wrong version of jar file.
 #### 1. 🔍 **Check the Build Error Message**
 - Identify the exact dependency and which repo URL it tried to hit.
 - Note if it’s a `401 Unauthorized`, `403 Forbidden`, `404 Not Found`, or a timeout.
